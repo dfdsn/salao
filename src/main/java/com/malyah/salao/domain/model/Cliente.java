@@ -13,8 +13,8 @@ import lombok.EqualsAndHashCode;
 @AllArgsConstructor
 public class Cliente extends Pessoa{
 	
-public Cliente(long l, String string) {
-		// TODO Auto-generated constructor stub
+	public Cliente() {
+
 	}
 
 

@@ -1,5 +1,7 @@
 package com.malyah.salao.domain.model;
 
+import java.time.LocalDate;
+
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -21,7 +23,7 @@ public abstract class Pessoa {
 	private String rg;
 	private String telefone;
 	private String email;
-	private String dataNascimento;
+	private LocalDate dataNascimento;
 	private String sexo;
 	private String logradouro;
 	private String numero;
